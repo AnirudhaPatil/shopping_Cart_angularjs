@@ -1,0 +1,16 @@
+{
+
+    "scripts": {
+        "debug": "node --nolazy --inspect-brk=9229 server.js"
+      },
+
+      
+    "name": "Launch via NPM",
+    "type": "node",
+    "request": "launch",
+    "runtimeExecutable": "npm",
+    "runtimeArgs": [
+        "run-script", "debug"
+    ],
+    "port": 8000
+}
